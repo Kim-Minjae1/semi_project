@@ -1,0 +1,74 @@
+@charset "UTF-8";
+#main_logo {
+            font-size: 30px;
+            color: rgb(146, 136, 107);
+            text-decoration: none;
+            font-family: 'NanumSquare', sans-serif;
+        }
+ 
+        /* 하단 content */
+        main {
+            display: flex;
+            justify-content: center;
+            padding-top: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        #right {
+            background-color: rgba(255, 192, 203, 0);
+            width: 1050px;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: -70px;
+        }
+
+        #main_div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 75vh;
+        }
+
+        #main_div label,
+        #main_div input {
+            width: 50%;
+        }
+
+        #main_div input {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            height: 40px;
+            width: 400px;
+        }
+
+        #main_div button {
+            width: 100px;
+            margin-top: 50px;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            width: 100px;
+            border-radius: 5px;
+            height: 35px;
+        }
+
+        #main_div button:first-child {
+            margin-left: 0;
+        }
+
+        #down_link a {
+            text-decoration: none;
+            color: inherit; /* 원래 링크 색상으로 설정 */
+    		outline: none;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
